@@ -20,7 +20,7 @@ function sendMoney(){
 	  document.getElementById(SUserBankAccount).innerHTML = SfinalAmount;
 	  
       alert(`Successful Transaction !!  
-      $${Amount} is sent to ${Name}@email.com. by ${SName}@email.com. `)
+      Rs.${Amount} is sent to ${Name}@email.com. by ${SName}@email.com. `)
 
       // transaction history 
       var createPTag = document.createElement("li");
